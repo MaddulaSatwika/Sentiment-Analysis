@@ -41,7 +41,7 @@ def lemmatizer(text):
     return ' '.join(sent)
 
 st.title("Comprehensive Guide on NLP")
-st.markdown("**By Satwika Maddula**")
+st.write("By Satwika Maddula")
 image = Image.open("image.png")
 st.image(image, use_column_width=True)
 
